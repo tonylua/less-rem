@@ -1,0 +1,19 @@
+{
+  "name": "less-rem",
+  "version": "1.0.0",
+  "description": "LESS mixin and Javascript function to use rem units",
+  "main": "dist/rem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tonylua/less-rem.git"
+  },
+  "keywords": [
+    "rem"
+  ],
+  "author": "tonylua@sina.com",
+  "license": "ISC",
+  "homepage": "https://github.com/tonylua/less-rem"
+}
