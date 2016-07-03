@@ -25,7 +25,7 @@
 			dpr = window.devicePixelRatio || 1,
 			scale = parseFloat(1 / dpr).toFixed(2),
 			w = dpr * screen.width,
-			rem = parseFloat(w / fac).toFixed(1),
+			rem = parseFloat(w / _fac).toFixed(1),
 			metaCont = [
 				'width=', w,
 				', initial-scale=', scale,
@@ -37,6 +37,7 @@
 		document.documentElement.firstElementChild.appendChild($style);
 		$style.innerHTML = 'html {font-size:'+rem + 'px !important}';
 		$style = null;
+		console.log('[rem] set root font-size to: %spx', rem);
 	}
 	
 	return function(fac) {
